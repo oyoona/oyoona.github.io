@@ -35,6 +35,10 @@ a:hover {
     font-size: 15px;
 }
 
+.thumbnail {
+    border-radius: 10px;
+}
+
 .contactWrapper {
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
