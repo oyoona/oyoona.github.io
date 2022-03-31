@@ -1,14 +1,18 @@
+body {
+    overflow-x: hidden;
+    }
+
+.navbar {
+    font-family: 'Comfortaa', cursive;
+}
+
 h1 {
     padding: 40px;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.thumbnail{
-    border: none;
-    border-radius: 5%;
-}
-
-.carousel-inner {
-    max-height: 1200px;
+p {
+    font-family: 'Montserrat', sans-serif;
 }
 
 a {
@@ -17,8 +21,33 @@ a {
 }
 
 a:hover {
-    color: rgb(150, 150, 150);
+    color: rgb(145, 145, 145);
     text-decoration: none;
+}
+
+.carousel-inner {
+    max-height: 1200px;
+}
+
+.aboutText {
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+.contactWrapper {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+form {
+    border: 2px solid rgb(70, 70, 70);
+    border-radius: 5%;
+    padding: 25px;
+}
+
+iframe {
+    border-radius: 5%;
 }
 
 footer {
@@ -28,18 +57,4 @@ footer {
     margin-top: 25px;
     padding-top: 9px;
     text-align: center;
-}
-
-iframe {
-    border-radius: 5%;
-}
-
-form {
-    border: 2px solid rgb(70, 70, 70);
-    border-radius: 5%;
-    padding: 30px;
-}
-
-p {
-    padding: 20px;
 }
